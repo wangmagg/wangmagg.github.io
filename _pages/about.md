@@ -10,9 +10,16 @@ profile:
   image_circular: false # crops the image to make it circular
   address: 
 
+<<<<<<< HEAD
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
+=======
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
+>>>>>>> 60209cf (Implemented latest posts on about page (#1307))
 ---
 
 I'm a third year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). 
