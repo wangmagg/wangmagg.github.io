@@ -9,5 +9,10 @@ redirect_to: /assets/pdf/MaggieWang_CV.pdf
 =======
 cv_pdf: example_pdf.pdf
 description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+<<<<<<< HEAD
 >>>>>>> cd5138b (CV Restyled (#1339))
+=======
+toc:
+  sidebar: left
+>>>>>>> 8883c9d (Moved ToC Menu to Sidebar (#1582))
 ---
