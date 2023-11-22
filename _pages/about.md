@@ -38,7 +38,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 >>>>>>> 2b725c1 (Fix typo (#1356))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Previously, I received a B.S. in Biomedical Engineering and in Computer Science from Johns Hopkins University. I am grateful for several research mentors I had the privilege of working with prior to coming to Stanford: [Michael Miller](https://www.bme.jhu.edu/people/faculty/michael-i-miller/) at the [Johns Hopkins Center for Imaging Science](https://www.cis.jhu.edu/), [Sharon Hori](https://profiles.stanford.edu/sharon-hori?tab=bio) at the [Stanford Canary Center for Early Cancer Detection](https://canarycenter.stanford.edu/), and [Alain Trouvé](https://atrouve.perso.math.cnrs.fr/) at the [ENS Paris-Saclay Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en).
 =======
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 >>>>>>> 45d349f (Added support for multiple profiles in about page (#1243))
+=======
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+>>>>>>> 13c277e (Update Font Awesome url (#1943))
