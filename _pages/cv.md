@@ -4,6 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 <<<<<<< HEAD
+<<<<<<< HEAD
 nav_order: 4
 <<<<<<< HEAD
 redirect_to: /assets/pdf/MaggieWang_CV.pdf
@@ -23,4 +24,8 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 >>>>>>> 8883c9d (Moved ToC Menu to Sidebar (#1582))
+=======
+nav_order: 4
+cv_pdf: MaggieWang_CV.pdf
+>>>>>>> def977d (content update)
 ---
