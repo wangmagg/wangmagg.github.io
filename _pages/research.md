@@ -8,12 +8,12 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/research.md -->
-<div class="research">
+<div class="publications">
 
 <h2 class="Journal & Conference Papers">{{ "Journal & Conference Papers" }}</h2>
-  {% bibliography -f papers -q @*[keywords={{ "J" }}]* %}
+  {% bibliography -f papers -q @*[keywords={{ J }}]* %}
 
 <h2 class="Contributed Talks">{{ "Contributed Talks" }}</h2>
-  {% bibliography -f papers -q @*[keywords={{ "T" }}]* %}
+  {% bibliography -f papers -q @*[keywords={{ T }}]* %}
 
 </div> 
