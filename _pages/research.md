@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /researc/
+permalink: /research/
 title: research
 description: research 
 # years: [1967, 1956, 1950, 1935, 1905]
