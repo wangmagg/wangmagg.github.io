@@ -41,6 +41,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I'm a third year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). 
 
 <<<<<<< HEAD
@@ -60,6 +61,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 >>>>>>> 13c277e (Update Font Awesome url (#1943))
 =======
 I'm a third year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). I work on experimental design methodology for evaluating the causal effects of interventions that target behaviors and mindsets. I especially care about interventions in the health and healthcare spaces, including empowerment self-defense programs that equip women and girls with skills to resist sexual assault and machine learning-based clinical support tools that help physicians make better decisions for their patients.
+=======
+I'm a third year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). 
+
+I work on experimental design methodology for evaluating the causal effects of interventions that target behaviors and mindsets. I especially care about interventions in the health and healthcare spaces, including empowerment self-defense programs that equip women and girls with skills to resist sexual assault and machine learning-based clinical support tools that help physicians make better decisions for their patients.
+>>>>>>> e807df4 (change spacing in "about", fix formatting in "research")
 
 Previously, I received a B.S. in Biomedical Engineering and in Computer Science from Johns Hopkins University. I am grateful for several research mentors I had the privilege of working with prior to coming to Stanford: [Michael Miller](https://www.bme.jhu.edu/people/faculty/michael-i-miller/) at the [Johns Hopkins Center for Imaging Science](https://www.cis.jhu.edu/), [Sharon Hori](https://profiles.stanford.edu/sharon-hori?tab=bio) at the [Stanford Canary Center for Early Cancer Detection](https://canarycenter.stanford.edu/), and [Alain Trouvé](https://atrouve.perso.math.cnrs.fr/) at the [ENS Paris-Saclay Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en).
 >>>>>>> def977d (content update)
