@@ -10,6 +10,7 @@ nav_order: 1
 <!-- _pages/research.md -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- <div class="publications"> -->
 {% bibliography %}
 =======
@@ -32,9 +33,15 @@ nav_order: 1
 
 <h2 class="Journal & Conference Papers">{{ "Journal & Conference Papers}" }</h2>
   {% bibliography -f papers -q @*[keywords={{ "J" }}]* %}
+=======
+<div class="publications">
+
+<h2 class="Journal & Conference Papers">{{ "Journal & Conference Papers" }}</h2>
+  {% bibliography -f papers -q @*[keywords={{ J }}]* %}
+>>>>>>> 423ed95 (fix cv and research formatting)
 
 <h2 class="Contributed Talks">{{ "Contributed Talks" }}</h2>
-  {% bibliography -f papers -q @*[keywords={{ "T" }}]* %}
+  {% bibliography -f papers -q @*[keywords={{ T }}]* %}
 
 </div> 
 >>>>>>> 5a69e5d (research formatting)
