@@ -206,7 +206,7 @@ kramdown:
 include: 
   - /_pages/about.md
   - /_pages/cv.md
-  - /_pages/research.md
+  - /_pages/publications.md
 exclude:
   - bin
   - Gemfile
