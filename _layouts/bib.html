@@ -33,8 +33,11 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <!-- <div class="title">{{entry.title}}</div> -->
-        <a href="{{ entry.url }}" class="title">{{entry.title}}</a>
+        {% if entry.type = "article" %}
+          <div class="title"><a href="{{ entry.url }}">{{entry.title}}</a></div>
+        {% else %}
+          <div class="title"><a>{{entry.title}}</a></div>
+        {% endif %}
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -117,7 +120,7 @@
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- capture entrytype -%}<em>{{entry.booktitle}}</em> {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
