@@ -34,9 +34,9 @@
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
         {%- if entry.type = "article" -%}
-          <div class="title"><a href="{{ entry.url }}">{{entry.title}}</a></div>
+          <a href="{{ entry.url }}" class="title">{{entry.title}}</a>
         {%- else -%}
-          <div class="title"><a>{{entry.title}}</a></div>
+          <a class="title">{{entry.title}}</a>
         {%- endif -%}
         <!-- Author -->
         <div class="author">
