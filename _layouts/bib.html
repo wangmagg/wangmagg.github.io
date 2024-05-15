@@ -33,11 +33,11 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        {% if entry.type = "article" %}
+        {%- if entry.type = "article" -%}
           <div class="title"><a href="{{ entry.url }}">{{entry.title}}</a></div>
-        {% else %}
+        {%- else -%}
           <div class="title"><a>{{entry.title}}</a></div>
-        {% endif %}
+        {%- endif -%}
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
