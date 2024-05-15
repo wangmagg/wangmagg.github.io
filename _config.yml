@@ -299,8 +299,8 @@ scholar:
   details_link: Details
 
   query: "@*"
-  # group_by: type
-  # group_order: [journal article, conference paper, contributed talk]
+  group_by: type
+  group_order: [journal article, conference paper, contributed talk]
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
