@@ -33,7 +33,7 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        {%- if entry.type = "journal article" -%}
+        {%- if entry.type == "journal article" -%}
           <a href="{{ entry.url }}" class="title">{{entry.title}}</a>
         {%- else -%}
           <b class="title">{{entry.title}}</b>
@@ -117,11 +117,11 @@
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
-        {% if entry.type = "journal article" -%}
+        {% if entry.type == "journal article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-        {%- elsif entry.type = "conference paper" -%}
+        {%- elsif entry.type == "conference paper" -%}
           {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
-        {%- elsif entry.type = "contributed talk" -%}
+        {%- elsif entry.type == "contributed talk" -%}
           {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
