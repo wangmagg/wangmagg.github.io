@@ -14,11 +14,13 @@ sections:
     text: "Contributed talks"
 ---
 <!-- _pages/publications.md -->
-{%- for section in page.sections %}
-  <a id="{{section.text}}"></a>
-  <p class="bibtitle">{{section.text}}</p>
-  {% bibliography -f {{ site.scholar.bibliography }} %}[type={{section.type}}]
-{%- endfor %}
+
+<div class="publications">
+    {%- for section in page.sections %}
+        <a id="{{section.text}}"></a>
+        <p class="bibtitle">{{section.text}}</p>
+        {% bibliography -f {{ site.scholar.bibliography }} %}[type={{section.type}}]
+    {%- endfor %}
   
 <!-- <div class="publications">
   {%- for category in page.display_categories %}
