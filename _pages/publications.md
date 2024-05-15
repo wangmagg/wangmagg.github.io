@@ -21,7 +21,7 @@ sections:
 <div class="publications">
     {%- for section in page.sections %}
         <a id="{{section.text}}"></a>
-        <h3 class="title">{{section.text}}</h3>
+        <h3 class="col-sm-10">{{section.text}}</h3>
         {% bibliography -f {{ site.scholar.bibliography }} -q {{section.bibquery}}[type={{section.type}}] %}
     {%- endfor %}
 </div>
