@@ -31,7 +31,7 @@
         {%- endif -%}
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+        <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-9{% endif %}">
         <!-- Title -->
         {%- if entry.type == "journal article" or entry.type == "conference paper" -%}
           <a href="{{ entry.url }}" class="title">{{entry.title}}</a>
