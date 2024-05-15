@@ -18,13 +18,10 @@ sections:
 ---
 <!-- _pages/publications.md -->
 
-<!-- <div class="publications">
+<div class="publications">
     {%- for section in page.sections %}
         <a id="{{section.text}}"></a>
-        <p class="bibtitle">{{section.text}}</p>
+        <h3 class="title">{{section.text}}</h3>
         {% bibliography -f {{ site.scholar.bibliography }} -q {{section.bibquery}}[type={{section.type}}] %}
-    {%- endfor %} -->
-  
-<div class="publications">
-    {% bibliography -f {{ site.scholar.bibliography }} %}
+    {%- endfor %}
 </div>
