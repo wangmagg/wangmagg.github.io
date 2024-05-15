@@ -119,7 +119,7 @@
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "journal article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "conference paper" or entry.type == "contributed talk -%}
+        {%- elsif entry.type == "conference paper" or entry.type == "contributed talk" -%}
           {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
