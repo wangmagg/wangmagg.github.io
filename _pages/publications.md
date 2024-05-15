@@ -6,11 +6,14 @@ description:
 nav: true
 nav_order: 2
 sections:
-  - type: "journal article"
+  - bibquery: "@article"
+    type: "journal article"
     text: "Journal articles"
-  - type: "conference paper"
+  - bibquery: "@inproceedings"
+    type: "conference paper"
     text: "Conference papers"
-  - type: "contributed talk"
+  - bibquery: "@inproceedings"
+    type: "contributed talk"
     text: "Contributed talks"
 ---
 <!-- _pages/publications.md -->
@@ -19,7 +22,7 @@ sections:
     {%- for section in page.sections %}
         <a id="{{section.text}}"></a>
         <p class="bibtitle">{{section.text}}</p>
-        {% bibliography -f {{ site.scholar.bibliography }} [type={{section.type}}] %}
+        {% bibliography -f {{ site.scholar.bibliography }} -q {{section.bibquery}}[type={{section.type}}] %}
     {%- endfor %}
   
 <!-- <div class="publications">
