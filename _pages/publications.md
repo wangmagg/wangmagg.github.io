@@ -8,13 +8,13 @@ nav_order: 2
 sections:
   - bibquery: "@article"
     type: "journal article"
-    text: "Journal articles"
+    text: "journal articles"
   - bibquery: "@inproceedings"
     type: "conference paper"
-    text: "Conference papers"
+    text: "conference papers"
   - bibquery: "@inproceedings"
     type: "contributed talk"
-    text: "Contributed talks"
+    text: "contributed talks"
 ---
 <!-- _pages/publications.md -->
 
