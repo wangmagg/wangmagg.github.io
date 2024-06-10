@@ -17,6 +17,7 @@ sections:
     text: "contributed talks"
 ---
 <!-- _pages/publications.md -->
+*equal contribution
 
 <div class="publications">
     {%- for section in page.sections %}
