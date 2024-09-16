@@ -11,7 +11,7 @@ sections:
     text: "journal articles"
   - bibquery: "@inproceedings"
     type: "conference paper"
-    text: "conference papers"
+    text: "preprints & conference papers"
   - bibquery: "@inproceedings"
     type: "contributed talk"
     text: "contributed talks"
