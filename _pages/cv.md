@@ -1,5 +1,5 @@
 ---
-layout: forward
+layout: default
 permalink: /cv/
 title: cv
 nav: true
