@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social:  # includes social icons at the bottom of the page
 ---
 
-I'm a third year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). 
+I'm a fourth year PhD student in Biomedical Data Science at Stanford University and am fortunate to be advised by [Mike Baiocchi](https://profiles.stanford.edu/michael-baiocchi). 
 
 I work on experimental design methodology for evaluating the causal effects of interventions that target behaviors and mindsets. I especially care about interventions in the health and healthcare spaces, including empowerment self-defense programs that equip women and girls with skills to resist sexual assault and machine learning-based clinical support tools that help physicians make better decisions for their patients.
 
