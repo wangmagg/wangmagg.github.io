@@ -7,6 +7,8 @@ first_name: Maggie
 middle_name:
 last_name: Wang
 email: mwang102@stanford.edu
+linkedin_username: wangmagg
+github_username: wangmagg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
