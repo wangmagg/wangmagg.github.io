@@ -17,7 +17,6 @@ sections:
   #   text: "contributed talks"
 ---
 <!-- _pages/publications.md -->
-*equal contribution
 
 <div class="publications">
     {%- for section in page.sections %}
@@ -26,3 +25,5 @@ sections:
         {% bibliography -f {{ site.scholar.bibliography }} -q {{section.bibquery}}[type={{section.type}}] %}
     {%- endfor %}
 </div>
+
+*equal contribution
