@@ -12,9 +12,9 @@ sections:
   - bibquery: "@inproceedings"
     type: "conference paper"
     text: "preprints & conference papers"
-  - bibquery: "@inproceedings"
-    type: "contributed talk"
-    text: "contributed talks"
+  # - bibquery: "@inproceedings"
+  #   type: "contributed talk"
+  #   text: "contributed talks"
 ---
 <!-- _pages/publications.md -->
 *equal contribution
