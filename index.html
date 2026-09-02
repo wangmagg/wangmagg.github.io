@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maggie Wang</title>
+  <meta name="author" content="Maggie Wang">
+  <meta name="description" content="Maggie Wang — PhD researcher working on causal inference, experimental design, and applied health studies.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/capybara.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <div class="header-text">
+        <p class="name">Maggie Wang</p>
+        <div class="bio">
+          <p>I am a final year PhD student in Biomedical Data Science at Stanford advised by <a href="https://profiles.stanford.edu/michael-baiocchi" target="_blank" rel="noopener">Mike Baiocchi</a>.</p>
+          <p>I do research in causal inference, focusing on developing new methods to design better randomized experiments. (See  <a href ="assets/pdf/inspection_guided_randomization.pdf" target="_blank" rel="noopener">Inspection-guided Randomization</a> and <a href="assets/pdf/stepped_double_wedge_design.pdf" target="_blank" rel="noopener">experimental evaluation of AI-assisted decision-making</a>).</p>
+          <p>Outside of methods development research, I have been the lead statistician on several applied studies of health interventions and outcomes. (See <a href="assets/pdf/under-referral_ckd.pdf" target="_blank" rel="noopener">quantifying under-referral rates for patients with chronic kidney disease</a>, <a href="assets/pdf/depression_substance_use.pdf" target="_blank" rel="noopener">assessing the relationship between depression and substance use in adolescents and adults</a>, and <a href="assets/pdf/mental_health_chatbot.pdf" target="_blank" rel="noopener">evaluating the effectiveness of a mental health chatbot for individuals with substance use disorder</a>).</p>
+          <p>Recently, I have also been interested in evaluating the impact of frontier AI on education, healthcare, and the economy. I am a current member of the Stanford HAI AI Policy Working Group and previously worked as an intern with the <a href="https://www.cdt.org/cdt-ai-governance-lab/" target="_blank" rel="noopener">AI Governance Lab at the Center for Democracy & Technology</a>.</p>
+          <p>Before Stanford, I received a B.S. in Biomedical Engineering and in Computer Science from Johns Hopkins University.</p>
+        </div>
+        <div class="social-icons">
+          <a class="social-link" href="mailto:mwang102@stanford.edu"><i class="fa-regular fa-envelope"></i>email</a>
+          <span class="social-sep">&middot;</span>
+          <a class="social-link" href="assets/pdf/MaggieWang_CV.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-lines"></i>cv</a>
+          <span class="social-sep">&middot;</span>
+          <a class="social-link" href="https://github.com/wangmagg" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>github</a>
+          <span class="social-sep">&middot;</span>
+          <a class="social-link" href="https://www.linkedin.com/in/wangmagg" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+          <span class="social-sep">&middot;</span>
+          <a class="social-link" href="https://scholar.google.com/citations?user=w-nwBbVzmsoC&hl=en" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i>scholar</a>
+        </div>
+      </div>
+      <div class="header-photo">
+        <img src="assets/img/prof_pic.jpg" alt="Photo of Maggie Wang">
+      </div>
+    </header>
+
+    <!-- ================= RESEARCH ================= -->
+    <section id="research">
+      <div class="section-header">
+        <span class="section-title">Research</span>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Causal Inference &amp; Experimental Design">Causal Inference &amp; Experimental Design</button>
+        <button class="filter-btn" data-filter="Health Interventions &amp; Outcomes">Health Interventions &amp; Outcomes</button>
+        <button class="filter-btn" data-filter="Safe &amp; Interpretable ML">Safe &amp; Interpretable ML</button>
+      </div>
+
+      <div class="year-group">
+        <div class="year-heading">2026</div>
+
+        <div class="entry" data-tag="Safe &amp; Interpretable ML">
+          <div class="entry-body">
+            <span class="tag">Safe &amp; Interpretable ML</span>
+            <h3><a href="https://doi.org/10.1145/3770855.3818112" target="_blank" rel="noopener">A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models</a></h3>
+            <p class="authors">Kara Liu, <strong>Maggie Wang</strong>, Russ B. Altman</p>
+            <p class="entry-meta"><span class="venue">KDD</span></p>
+            <p class="entry-links">
+              <a href="https://doi.org/10.1145/3770855.3818112" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
+              <a href="https://arxiv.org/abs/2606.00563" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
+              <a href="assets/pdf/papers/selection_bias.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a> &middot;
+              <a href="https://github.com/kara-liu/selection_gap_est" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>code</a>
+            </p>
+            <p class="abstract">Proposes a practical upper bound on how selection bias degrades a model&rsquo;s performance on an unobserved target population using only partially observed selection mechanisms and target data, validated on synthetic, All of Us, and MIMIC-IV data.</p>
+          </div>
+        </div>
+
+        <div class="entry" data-tag="Causal Inference &amp; Experimental Design">
+          <div class="entry-body">
+            <span class="tag">Causal Inference &amp; Experimental Design</span>
+            <h3><a href="https://arxiv.org/abs/2607.27701" target="_blank" rel="noopener">Evaluating Algorithm-Assisted Human Decision-Making Over Repeated Algorithm Exposure: Recommendations for Effect Estimands and Experimental Design</a></h3>
+            <p class="authors"><strong>Maggie Wang</strong>, Michael Baiocchi</p>
+            <p class="entry-meta"><span class="venue">arXiv preprint</span></p>
+            <p class="entry-links">
+              <a href="https://arxiv.org/abs/2607.27701" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
+              <a href="assets/pdf/papers/eval_ai.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
+            </p>
+            <p class="abstract">Introduces effect estimands and a minimax stepped double wedge design for evaluating algorithm-assisted decision-making when human behavior adapts under repeated algorithm exposure.</p>
+          </div>
+        </div>
+
+        <div class="entry" data-tag="Health Interventions &amp; Outcomes">
+          <div class="entry-body">
+            <span class="tag">Health Interventions &amp; Outcomes</span>
+            <h3><a href="https://doi.org/10.1016/j.josat.2026.209993" target="_blank" rel="noopener">A Relational Agent for Treating Substance Use in Adults: A Randomized Controlled Trial with a Psychoeducational Comparator</a></h3>
+            <p class="authors">Judith J. Prochaska, <strong>Maggie Wang</strong>, et al.</p>
+            <p class="entry-meta"><span class="venue">Journal of Substance Use and Addiction Treatment</span></p>
+            <p class="entry-links">
+              <a href="https://doi.org/10.1016/j.josat.2026.209993" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
+              <a href="assets/pdf/papers/wsud.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a> &middot;
+              <a href="https://github.com/wangmagg/woebot-rct" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>code</a>
+            </p>
+            <p class="abstract">A randomized trial found a Woebot-based digital intervention for substance use produced improvements comparable to an active psychoeducational control, with no significant difference between conditions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="year-group">
+        <div class="year-heading">2025</div>
+
+        <div class="entry" data-tag="Causal Inference &amp; Experimental Design">
+          <div class="entry-body">
+            <span class="tag">Causal Inference &amp; Experimental Design</span>
+            <h3><a href="https://doi.org/10.3102/10769986251342292" target="_blank" rel="noopener">Inspection-Guided Randomization: A Flexible and Transparent Restricted Randomization Framework for Better Experimental Design</a></h3>
+            <p class="authors"><strong>Maggie Wang</strong>, Ren&eacute; Kizilcec, Michael Baiocchi</p>
+            <p class="entry-meta"><span class="venue">Journal of Educational and Behavioral Statistics</span></p>
+            <p class="entry-links">
+              <a href="https://doi.org/10.3102/10769986251342292" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
+              <a href="assets/pdf/papers/igr.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a> &middot;
+              <a href="https://github.com/wangmagg/inspection-guided-randomization" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>code</a>
+            </p>
+            <p class="abstract">Introduces inspection-guided randomization, a flexible restricted-randomization framework that filters out undesirable treatment assignments against pre-registered design criteria to improve experimental design.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="year-group">
+        <div class="year-heading">2024</div>
+
+        <div class="entry" data-tag="Health Interventions &amp; Outcomes">
+          <div class="entry-body">
+            <span class="tag">Health Interventions &amp; Outcomes</span>
+            <h3><a href="https://doi.org/10.1016/j.addbeh.2024.108076" target="_blank" rel="noopener">Depression Screening Outcomes among Adolescents, Young Adults, and Adults Reporting Past 30-Day Tobacco and Cannabis Use</a></h3>
+            <p class="authors">Shivani Mathur Gaiha, <strong>Maggie Wang</strong>, Mike Baiocchi, Bonnie Halpern-Felsher</p>
+            <p class="entry-meta"><span class="venue">Addictive Behaviors</span></p>
+            <p class="entry-links">
+              <a href="https://doi.org/10.1016/j.addbeh.2024.108076" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
+              <a href="assets/pdf/papers/dep_couse.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
+            </p>
+            <p class="abstract">A national survey of adolescents through adults found tobacco-and-cannabis co-use was associated with higher odds of screening positive for depression than using either substance alone.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="year-group">
+        <div class="year-heading">2023</div>
+
+        <div class="entry" data-tag="Safe &amp; Interpretable ML">
+          <div class="entry-body">
+            <span class="tag">Safe &amp; Interpretable ML</span>
+            <h3><a href="https://arxiv.org/abs/2205.15480" target="_blank" rel="noopener">Post-hoc Concept Bottleneck Models</a></h3>
+            <p class="authors">Mert Yuksekgonul, <strong>Maggie Wang</strong>, James Zou</p>
+            <p class="entry-meta"><span class="venue">ICLR</span> <span class="award-badge"><i class="fa-solid fa-award"></i>Spotlight (top 25%)</span></p>
+            <p class="entry-links">
+              <a href="https://arxiv.org/abs/2205.15480" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-up"></i>arxiv</a> &middot;
+              <a href="assets/pdf/papers/pcbm.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a> &middot;
+              <a href="https://github.com/mertyg/post-hoc-cbm" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>code</a>
+            </p>
+            <p class="abstract">Introduces Post-hoc Concept Bottleneck Models, which convert any pretrained neural network into an interpretable, concept-based model without sacrificing accuracy and support efficient global edits via concept-level feedback.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="year-group">
+        <div class="year-heading">2022</div>
+
+        <div class="entry" data-tag="Health Interventions &amp; Outcomes">
+          <div class="entry-body">
+            <span class="tag">Health Interventions &amp; Outcomes</span>
+            <h3><a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2795414" target="_blank" rel="noopener">Underutilization of Nephrology Referral at High Kidney Failure Risk Levels</a></h3>
+            <p class="authors"><strong>Maggie Wang</strong><sup>*</sup>, Samson Peter<sup>*</sup>, Chi Chu, Delphine Tuot, Jonathan Chen</p>
+            <p class="entry-meta"><span class="venue">JAMA Network Open</span></p>
+            <p class="entry-links">
+              <a href="https://doi.org/10.1001/jamanetworkopen.2022.25797" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i>doi</a> &middot;
+              <a href="assets/pdf/papers/ckd.pdf"><i class="fa-regular fa-file-lines"></i>pdf</a>
+            </p>
+            <p class="abstract">A national claims analysis found nearly half of chronic kidney disease patients at high risk of kidney failure had not seen a nephrologist within a year of that risk becoming identifiable.</p>
+            <p class="footnote">* equal contribution</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OTHER WRITING ================= -->
+    <section id="other-writing">
+      <div class="section-header">
+        <span class="section-title">Other Writing</span>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="entry no-thumb">
+        <div class="entry-body">
+          <h3><a href="https://cdt.org/insights/what-are-they-willing-to-risk-why-ai-companies-need-to-make-their-risk-appetites-more-legible-to-the-public/" target="_blank" rel="noopener">What Are They Willing to Risk? Why AI Companies Need to Make Their Risk Appetites More Legible to the Public</a></h3>
+          <p class="entry-meta"><span class="venue">Center for Democracy &amp; Technology</span> &middot; <span class="year">August 2025</span></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Design based on <a href="https://jonbarron.info/" target="_blank" rel="noopener">Jon Barron</a>'s website.</p>
+    </footer>
+
+  </div>
+
+  <script src="filter.js"></script>
+</body>
+</html>
